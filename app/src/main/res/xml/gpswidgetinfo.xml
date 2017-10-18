@@ -1,4 +1,5 @@
-<appwidget-provider xmlns:xmnls="http://schemas.android.com/apk/res/android"
+<appwidget-provider
+    xmlns:xmnls="http://schemas.android.com/apk/res/android"
     xmnls:minWidth="294dp"
     xmnls:minHeight="72dp"
     xmnls:updatePeriodMillis="900000"

@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">GPSAppWidget</string>
-    <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="tittle_gps_widget">GPSWidget</string>
     <string name="app_info">This widget shows the GPS coordinates of the device</string>
+    <string name="waiting_for_gps_coordinates">Waiting for GPS coordinates...</string>
 </resources>

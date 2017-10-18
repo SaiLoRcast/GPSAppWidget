@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.polygalov.gpsappwidget">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,20 +21,20 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name=".GPSAppWidgetProvider" />
-        <intent-filter>
-            <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-        </intent-filter>
-        <meta-data
-            android:name="android.appwidget.provider"
-            android:resource="@xml/gpswidgetinfo" />
+        <receiver android:name=".GPSAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/gpswidgetinfo" />
+        </receiver>
 
-        <service android:name=".GPSAppWidgetProvider$GPSWidgetService"></service>
+        <service android:name=".GPSAppWidgetProvider$GPSWidgetService">
 
+        </service>
     </application>
 
-    <uses-permission android:name="android.permission.INTERNET" />
-        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-        <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
 
 </manifest>

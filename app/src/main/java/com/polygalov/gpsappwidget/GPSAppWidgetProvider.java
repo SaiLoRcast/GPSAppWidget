@@ -25,7 +25,6 @@ import java.util.List;
 
 public class GPSAppWidgetProvider extends AppWidgetProvider {
 
-
     @Override
     public void onDeleted(Context context, int[] appWidgetIds) {
         super.onDeleted(context, appWidgetIds);
