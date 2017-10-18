@@ -1,8 +1,6 @@
-<appwidget-provider
-    xmlns:xmnls="http://schemas.android.com/apk/res/android"
-    xmnls:minWidth="294dp"
-    xmnls:minHeight="72dp"
-    xmnls:updatePeriodMillis="900000"
-    xmnls:initialLayout="@layout/gpsapp_widget">
-
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="294dp"
+    android:minHeight="72dp"
+    android:updatePeriodMillis="900000"
+    android:initialLayout="@layout/gpsapp_widget">
 </appwidget-provider>
