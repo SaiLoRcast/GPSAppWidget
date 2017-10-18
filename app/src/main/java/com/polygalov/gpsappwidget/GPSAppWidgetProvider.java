@@ -66,7 +66,7 @@ public class GPSAppWidgetProvider extends AppWidgetProvider {
         context.startService(new Intent(context, GPSWidgetService.class));
     }
 
-    private class GPSWidgetService extends Service {
+    public class GPSWidgetService extends Service {
 
         private LocationManager locationManager = null;
 
@@ -212,7 +212,7 @@ public class GPSAppWidgetProvider extends AppWidgetProvider {
             ComponentName thisWidget = new ComponentName(this, GPSAppWidgetProvider.class);
             AppWidgetManager manager = AppWidgetManager.getInstance(this);
             manager.updateAppWidget(thisWidget, views);
-            
+
         }
     }
 }
