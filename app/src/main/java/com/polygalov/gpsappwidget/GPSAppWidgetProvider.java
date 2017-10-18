@@ -181,7 +181,7 @@ public class GPSAppWidgetProvider extends AppWidgetProvider {
 
         private void updateCoordinates(double latitude, double longitude) {
             Geocoder coder = new Geocoder(this);
-            List<Address> addresses = null;
+            List<Address> addresses;
             String info = "";
 
             AppLog.logString("Service.updateCoordinates()");
