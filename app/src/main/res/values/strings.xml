@@ -4,4 +4,18 @@
     <string name="tittle_gps_widget">GPSWidget</string>
     <string name="app_info">This widget shows the GPS coordinates of the device</string>
     <string name="waiting_for_gps_coordinates">Waiting for GPS coordinates...</string>
+    <string name="permission_access_coarse_location">Access location permission is needed for providing get pokemons.</string>
+    <string name="action_snack_permission_access_coarse_location">Accept permission</string>
+
+
+    <string name="location_alert_title">Failed to get location</string>
+    <string name="location_alert_message">PokeWhere could not get your location, try again or move around the map</string>
+    <string name="location_alert_pos_btn">Try again</string>
+    <string name="location_alert_neg_btn">Cancel</string>
+    <string name="location_alert_error">An error has occurred, please try again later!</string>
+    <string name="snack_bar_neg_btn">Having</string>
+
+    <string name="permission_alert_title">Location services turned off</string>
+    <string name="permission_alert_message">For the correct operation of the application, it is necessary that the location services are activated, you can activate them from the Settings of the application</string>
+    <string name="open_location_settings">Activate Location Services</string>
 </resources>

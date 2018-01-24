@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/GPSAppWidget.iml" filepath="$PROJECT_DIR$/.idea/GPSAppWidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GPSAppWidget.iml" filepath="$PROJECT_DIR$/GPSAppWidget.iml" />
       <module fileurl="file://C:\AndroidIntelliJIDEAProjects\FromGitHub\GPSAppWidget\GPSAppWidget.iml" filepath="C:\AndroidIntelliJIDEAProjects\FromGitHub\GPSAppWidget\GPSAppWidget.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://C:\AndroidIntelliJIDEAProjects\FromGitHub\GPSAppWidget\app\app.iml" filepath="C:\AndroidIntelliJIDEAProjects\FromGitHub\GPSAppWidget\app\app.iml" />

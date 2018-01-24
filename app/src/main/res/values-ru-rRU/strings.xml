@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPSAppWidget</string>
+    <string name="action_snack_permission_access_coarse_location">Принять разрешение</string>
+
+</resources>
